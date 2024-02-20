@@ -15,11 +15,11 @@ const infoData = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: 'alamkrithasiju@gmail.com'
+    text: 'alamkritha.siju1055@gmail.com'
   },
   {
     icon: <Calendar size={20} />,
-    text: 'Born on 18 Oct, 2002'
+    text: 'Born on 25 Oct, 2002'
   },
   {
     icon: <GraduationCap size={20} />,
@@ -36,39 +36,29 @@ const qualificationData = [
     title: 'education',
     data: [
       {
+        university: 'Pixeltoonz Academy of Film & Media',
+        qualification: "Graphic Design & 3D Design",
+        years: '2020 - 2023'
+      },
+      {
         university: 'Mahathma Gandhi University',
         qualification: "Bachelor of Science in Computer Science",
         years: '2020 - 2023'
       },
       {
-        university: 'Sri Venkateswara College Of Technology',
-        qualification: 'Technology with Honours (Tech with Honours)',
-        years: '2015 - 2019'
+        university: 'MES HSS Amayar',
+        qualification: '+2 Computer Science',
+        years: '2018 - 2020'
       },
-      {
-        university: "Don Bosco Technical Institute",
-        qualification: "Diploma in Electronics and Telecommunications",
-        years: '2011-2015'
-      },
+     
     ],
   },
   {
     title: 'experience',
     data: [
       {
-        company: 'Pixel Toons',
-        role: "Model designer",
-        years: '2020 - 2023'
-      },
-      {
-        company: 'UST Global',
-        role: 'Wedding Photographer',
-        years: '2015 - 2019'
-      },
-      {
-        company: "Technopark",
-        role: "3D Designer",
-        years: '2011-2015'
+        company: 'Fresher',
+        role: "Eager freelancer in Graphics Designing, dedicated to delivering excellence. Seeking new projects for impactful collaboration.",
       },
     ],
   },
@@ -78,19 +68,19 @@ const skillData = [
   {
     title: 'Skills',
     data: [
-      { name: 'HTML CSS' },
-      { name: 'Front-end Development' },
-      { name: 'JavaScript, PHP' },
-      { name: 'Back-end Development' },
+      { name: 'Adobe Photoshop' },
+      { name: 'Adobe Illustrator' },
+      { name: 'Adobe InDesign' },
+      { name: 'Blender' },
     ],
   },
   {
     title: 'tools',
     data: [
-      { imgPath: 'about/vscode.svg' },
-      { imgPath: 'about/figma.svg' },
-      { imgPath: 'about/notion.svg' },
-      { imgPath: 'about/wordpress.svg' },
+      { imgPath: 'about/Adobe Photoshop CC.svg' },
+      { imgPath: 'about/Adobe_Illustrator CC.svg' },
+      { imgPath: 'about/Adobe Indesign CC.svg' },
+      { imgPath: 'about/blender-icon.svg' },
     ],
   },
 ];

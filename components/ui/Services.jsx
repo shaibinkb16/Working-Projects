@@ -1,4 +1,4 @@
-import { GanttChartSquare,Blocks, Gem } from "lucide-react";
+import { GanttChartSquare,Blocks, Gem ,Edit,Image,Paperclip} from "lucide-react";
 import { Card,CardContent,CardDescription,CardHeader,CardTitle } from "./card";
 import { Caesar_Dressing } from "next/font/google";
 
@@ -6,18 +6,18 @@ import { Caesar_Dressing } from "next/font/google";
 const ServicesData=[
     {
         icon:<GanttChartSquare size={72} strokeWidth={0.8} />,
-        title:'Web Design',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in velit nec lorem tempus commodo quis sed augue.'
+        title:'Poster Designing',
+        description: 'Elevate your message with our expert poster design service. Striking visuals, impactful messaging - we bring your ideas to life.'
     },
     {
-        icon:<Blocks size={72} strokeWidth={0.8} />,
-        title:'Web Devolpment',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in velit nec lorem tempus commodo quis sed augue.'
+        icon:<Image size={72} strokeWidth={0.8} />,
+        title:'Photo Editing',
+        description: 'Transforming images with precision and creativity. Photo editing services to enhance, retouch, and bring out the best in your visuals.'
     },
     {
-        icon:<Gem size={72} strokeWidth={0.8} />,
-        title:'App Devolpment',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in velit nec lorem tempus commodo quis sed augue.'
+        icon:<Edit size={72} strokeWidth={0.8} />,
+        title:'Logo Designing',
+        description: 'Crafting distinctive logos that resonate. Elevate your brand with our creative logo design services – unique, memorable, and tailored to your vision.'
     },
 ]
 
