@@ -1,0 +1,7 @@
+Async:
+1) The async keyword in JavaScript is used to define a function that performs asynchronous operations. This means the function can perform tasks that take some time to complete (like fetching data from a database or an API) without blocking other code from running.
+2) async (req, res) => {...}: The async keyword before (req, res) makes the function asynchronous. This allows the use of await inside the function.
+3) await fetchDataFromDatabase(): The await keyword is used to wait for the fetchDataFromDatabase function to complete. This function returns a promise that resolves after 1 second (simulating a database query).
+4) When strictQuery is set to true, Mongoose will only allow properties that are defined in the Mongoose schema to be used in query filters. This helps prevent potential issues caused by querying with fields that do not exist in the schema.
+5) dotenv is a zero-dependency module that loads environment variables from a .env file into process.env in a Node.js application. This allows you to keep sensitive information like API keys, database credentials, and other configuration values out of your source code, making it easier to manage different environments (development, testing, production) without hardcoding these values.
+    a)dotenv is used to load environment variables that are likely stored in a .env file. These variables can then be accessed via process.env to configure the Cloudinary SDK, connect to databases, or manage other configuration settings securely.
